@@ -13,4 +13,25 @@ Remember, it's self-paced so feel free to take a break! ☕️
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Running tests
 
+1. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the pytest suite:
+
+   ```bash
+   pytest -q
+   ```
+
+All backend tests are passing with `pytest`.
